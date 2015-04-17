@@ -21,6 +21,12 @@ class AssistanceMenu(object):
         pass
     
     
+    def back(self):
+        StormTest.PressButton("TAP:1125:515:0")
+        StormTest.WaitSec(1)
+        pass
+    
+    
     def down(self):
         StormTest.PressButton("TAP:1225:535:0")
         StormTest.WaitSec(1)
@@ -37,4 +43,5 @@ class AssistanceMenu(object):
         StormTest.PressButton("TAP:1270:450:0")
         StormTest.WaitSec(1)
         pass
+    
         
