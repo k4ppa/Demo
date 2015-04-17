@@ -62,7 +62,7 @@ def disconnectToTheNetwork(galaxyTab3, assistanceMenu):
 
 def closeSettings(assistanceMenu):
     assistanceMenu.open()
-    StormTest.WaitSec(1)
+    StormTest.WaitSec(2)
     assistanceMenu.down()
     StormTest.WaitSec(1)
     assistanceMenu.back()
