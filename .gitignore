@@ -1,12 +1,3 @@
-
-.project
-.pydevproject
-*.pyc
-src/main_*
-src/mobile_framework/tests/test_users_actions_*
-MobileDevice.log
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -65,3 +56,17 @@ docs/_build/
 # PyBuilder
 target/
 
+
+
+
+
+
+
+.project
+.pydevproject
+*.pyc
+src/mobile_framework/tests/runfiles_*
+src/mobile_framework/tests/test_users_actions_*
+src/main_*
+MobileDevice.log
+src/mapped_commands/android_commands/samsung_galaxy_tab_3/it_sky_river_commands.pyc
