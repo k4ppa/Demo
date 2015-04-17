@@ -1,0 +1,7 @@
+.project
+.pydevproject
+*.pyc
+src/main_*
+src/mobile_framework/tests/test_users_actions_*
+MobileDevice.log
+
